@@ -1,0 +1,38 @@
+<svg width="400" height="200" viewBox="0 0 400 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2563eb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- S -->
+  <path d="M50 140 Q50 80 90 80 Q130 80 130 100 Q130 115 110 120 L70 130 Q50 135 50 150 Q50 170 90 170 Q130 170 130 150"
+        stroke="url(#gradient)" stroke-width="20" fill="none" stroke-linecap="round"/>
+
+  <!-- E -->
+  <path d="M160 80 L240 80 M160 80 L160 170 M160 125 L220 125 M160 170 L240 170"
+        stroke="url(#gradient)" stroke-width="20" stroke-linecap="round"/>
+
+  <!-- O (Rocket) -->
+  <g transform="translate(280, 40)">
+    <!-- Rocket body -->
+    <ellipse cx="40" cy="70" rx="25" ry="45" fill="url(#gradient)"/>
+
+    <!-- Rocket top -->
+    <path d="M40 25 L55 50 L25 50 Z" fill="url(#gradient)"/>
+
+    <!-- Window -->
+    <circle cx="40" cy="60" r="12" fill="white"/>
+
+    <!-- Left fin -->
+    <path d="M20 90 L15 120 L30 100 Z" fill="url(#gradient)"/>
+
+    <!-- Right fin -->
+    <path d="M60 90 L65 120 L50 100 Z" fill="url(#gradient)"/>
+
+    <!-- Flame -->
+    <path d="M30 115 Q40 135 40 145 Q40 135 50 115 L45 115 Q40 125 40 130 Q40 125 35 115 Z"
+          fill="#f97316" opacity="0.8"/>
+  </g>
+</svg>
