@@ -524,11 +524,21 @@ body {
   font-size: var(--font-size-5xl);
   font-weight: var(--font-weight-bold);
   line-height: 1;
+  color: #ffffff;
+}
+
+/* Override gradient-text within stats card for better visibility */
+.stats-card .stat-number {
+  background: none;
+  -webkit-background-clip: unset;
+  -webkit-text-fill-color: #ffffff;
+  background-clip: unset;
+  color: #ffffff;
 }
 
 .stat-label {
   display: block;
-  color: var(--color-muted-foreground);
+  color: #ffffff;
   margin-top: var(--spacing-2);
 }
 
