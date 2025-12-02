@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://seohuntsville.com/sitemap.xml

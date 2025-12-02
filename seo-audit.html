@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO Meta Tags -->
+  <title>Free SEO Audit for Huntsville Businesses | SEO Huntsville</title>
+  <meta name="description" content="Get a free, comprehensive SEO audit for your Huntsville business. Includes keyword analysis, technical SEO review, competitor research, and custom action plan. Results within 24 hours.">
+  <meta name="keywords" content="free SEO audit Huntsville, website analysis, SEO report, keyword analysis Huntsville, technical SEO audit">
+  <link rel="canonical" href="https://seohuntsville.com/seo-audit.html">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Free SEO Audit for Huntsville Businesses | SEO Huntsville">
+  <meta property="og:description" content="Get a free, comprehensive SEO audit. Includes keyword analysis, technical review, and custom action plan.">
+  <meta property="og:url" content="https://seohuntsville.com/seo-audit.html">
+  <meta property="og:image" content="https://seohuntsville.com/images/og-image.jpg">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <nav class="container header-nav">
+      <a href="index.html" class="logo">
+        <span class="gradient-text">SEO Huntsville</span>
+      </a>
+      <a href="seo-audit.html" class="btn btn-hero">
+        Get Free Audit
+        <i data-lucide="arrow-right"></i>
+      </a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="section audit-hero" style="background: var(--gradient-subtle);">
+    <div class="container">
+      <div class="audit-hero-content">
+        <h1>Get Your Free <span class="gradient-text">SEO Audit</span></h1>
+        <p>Discover what's holding your website back. Our comprehensive audit includes keyword analysis, technical SEO review, competitor research, and a custom action plan.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- What's Included Section -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">What's Included in Your Audit</h2>
+
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4">
+        <div class="card text-center">
+          <div class="icon-box icon-box-lg mx-auto">
+            <i data-lucide="search"></i>
+          </div>
+          <h3>Keyword Analysis</h3>
+          <p>Discover which keywords you should be ranking for</p>
+        </div>
+
+        <div class="card text-center">
+          <div class="icon-box icon-box-lg mx-auto">
+            <i data-lucide="bar-chart-3"></i>
+          </div>
+          <h3>Competitor Research</h3>
+          <p>See how you stack up against local competitors</p>
+        </div>
+
+        <div class="card text-center">
+          <div class="icon-box icon-box-lg mx-auto">
+            <i data-lucide="file-text"></i>
+          </div>
+          <h3>Technical SEO Review</h3>
+          <p>Identify critical issues hurting your rankings</p>
+        </div>
+
+        <div class="card text-center">
+          <div class="icon-box icon-box-lg mx-auto">
+            <i data-lucide="target"></i>
+          </div>
+          <h3>Action Plan</h3>
+          <p>Get specific recommendations to improve rankings</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Form Section -->
+  <section class="section" style="background: var(--color-muted);">
+    <div class="container container-narrow">
+      <div class="form-card">
+        <!-- HubSpot Form Container -->
+        <div id="hubspot-form"></div>
+      </div>
+
+      <div class="trust-message">
+        <i data-lucide="check-circle"></i>
+        <p>We'll analyze your website and send you a detailed report within 24 hours. No credit card required.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Column 1: Branding -->
+        <div class="footer-brand">
+          <span class="logo gradient-text">SEO Huntsville</span>
+          <p>Huntsville's premier SEO agency helping local businesses dominate search rankings and grow revenue.</p>
+        </div>
+
+        <!-- Column 2: Services -->
+        <div class="footer-links">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="local-seo.html">Local SEO</a></li>
+            <li><a href="google-business-profile.html">Google Business Profile</a></li>
+            <li><a href="content-marketing.html">Content Marketing</a></li>
+            <li><a href="technical-seo.html">Technical SEO</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 3: Contact -->
+        <div class="footer-contact">
+          <h4>Contact</h4>
+          <address>
+            <p>Huntsville, Alabama</p>
+            <p><a href="mailto:info@seohuntsville.com">info@seohuntsville.com</a></p>
+            <p><a href="tel:2568002559">(256) 800-2559</a></p>
+          </address>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year"></span> SEO Huntsville. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="js/main.js"></script>
+  <script>
+    lucide.createIcons();
+
+    // HubSpot Form Embed
+    document.addEventListener('DOMContentLoaded', function() {
+      const script = document.createElement('script');
+      script.src = 'https://js.hsforms.net/forms/embed/v2.js';
+      script.defer = true;
+      script.onload = function() {
+        if (window.hbspt) {
+          hbspt.forms.create({
+            region: 'na1',
+            portalId: '44523130',
+            formId: '648fc9e4-176f-4e68-8162-2a8220865d23',
+            target: '#hubspot-form'
+          });
+        }
+      };
+      document.body.appendChild(script);
+    });
+  </script>
+</body>
+</html>
