@@ -549,6 +549,20 @@ body {
 .stat-card {
   text-align: center;
   padding: var(--spacing-6);
+  background: var(--gradient-subtle);
+  border: 2px solid transparent;
+  background-clip: padding-box;
+  border-radius: var(--radius-2xl);
+  position: relative;
+}
+
+.stat-card::before {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  border-radius: var(--radius-2xl);
+  background: var(--gradient-primary);
+  z-index: -1;
 }
 
 .stat-card svg {
