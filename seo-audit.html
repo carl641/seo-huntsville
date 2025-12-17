@@ -92,8 +92,8 @@
   <section class="section" style="background: var(--color-muted);">
     <div class="container container-narrow">
       <div class="form-card">
-        <!-- HubSpot Form Container -->
-        <div id="hubspot-form"></div>
+        <!-- JotForm Contact Form -->
+        <script type="text/javascript" src="https://form.jotform.com/jsform/253505957270057"></script>
       </div>
 
       <div class="trust-message">
@@ -145,24 +145,6 @@
   <script src="js/main.js"></script>
   <script>
     lucide.createIcons();
-
-    // HubSpot Form Embed
-    document.addEventListener('DOMContentLoaded', function() {
-      const script = document.createElement('script');
-      script.src = 'https://js.hsforms.net/forms/embed/v2.js';
-      script.defer = true;
-      script.onload = function() {
-        if (window.hbspt) {
-          hbspt.forms.create({
-            region: 'na1',
-            portalId: '44523130',
-            formId: '648fc9e4-176f-4e68-8162-2a8220865d23',
-            target: '#hubspot-form'
-          });
-        }
-      };
-      document.body.appendChild(script);
-    });
   </script>
 </body>
 </html>
